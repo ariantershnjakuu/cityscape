@@ -1,6 +1,7 @@
 import { Property } from "../Types/Property";
 import Room from "../assets/rooms.svg";
 import Bath from "../assets/bath.svg";
+import Document from "../assets/document.svg";
 
 interface PropertyCardProps {}
 
@@ -58,7 +59,8 @@ const PropertyCard: React.FC<Property> = ({
           <img src={`${Bath}`} alt="" />
           {bath}
         </span>
-        <span className="flex items-center justify-center">
+        <span className="flex items-center justify-center gap-2">
+          <img src={`${Document}`} alt="" />
           {documments ? "Flete poseduese" : "Jo ne rregull"}
         </span>
       </div>
