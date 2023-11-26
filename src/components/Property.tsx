@@ -35,7 +35,7 @@ const PropertyAdd: React.FC<PropertyAddProps> = () => {
     fetchProperty();
   }, []);
   return (
-    <div className="mt-72 max-w-7xl mx-auto">
+    <div className="mt-64 max-w-7xl mx-auto">
       <div className="px-8 pb-4">
         <div className="w-48 h-1 rounded-lg bg-gradient-to-r from-[#FFAC12] to-black mb-8"></div>
         <span className="text-black font-bold text-5xl text-start">

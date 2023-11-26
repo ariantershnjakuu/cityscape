@@ -17,7 +17,7 @@ const Nav: React.FC<NavProps> = () => {
           </ul>
         </div>
         <div>
-          <button className="bg-[#FFAC12] px-5 py-3 rounded-tr-xl">
+          <button className="bg-[#FFAC12] px-5 py-3 rounded-tr-xl font-bold">
             Bashkëpuno me ne
           </button>
         </div>
