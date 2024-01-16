@@ -19,12 +19,12 @@ const Homepage: React.FC<HomepageProps> = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/50 to-black/20"></div>
       <div className="max-w-7xl mx-auto">
         <div className="z-10 relative pt-20 pl-8 max-w-sm">
-          <span className="text-white font-bold text-7xl">
+          <span className="text-white font-bold text-7xl slide-in-bck-center">
             Shtëpia e ëndrrave është këtu!
           </span>
           <br />
           <br />
-          <span className="text-white/70 font-light text-lg max-w-md">
+          <span className="text-white/70 font-light text-lg max-w-md slide-in-bck-center">
             Në agjensinë tonë, ofrojmë një eksperiencë të personalizuar për
             blerësit dhe shitësit, duke ju ndihmuar të gjeni dhe të shisni
             pronën e ëndrrave tuaja në mënyrë të sigurt dhe efikase.
