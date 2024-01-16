@@ -1,6 +1,7 @@
 import React from "react";
 import ContentImage from "../assets/content-image.svg";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 interface DesctiptionProps {}
 
@@ -21,10 +22,13 @@ const Desctiption: React.FC<DesctiptionProps> = () => {
             e zonave të ndryshme na bën ne një zgjedhje të besueshme për nevojat
             tuaja në zgjedhjen e pronës tuaj ideale.
           </p>
-          <button className="bg-black text-white px-5 py-3 rounded-tr-xl mt-8 font-bold flex items-center gap-3">
+          <Link
+            to="/property-page"
+            className="bg-black text-white px-5 py-3 rounded-tr-xl mt-8 font-bold flex items-center gap-3 w-56"
+          >
             Shiko më shumë
             <ArrowLongRightIcon className="h-5 w-5 text-[#FFAC12]" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
