@@ -1,6 +1,5 @@
 import React from "react";
 import BgImage from "../assets/bg-image.svg";
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import AllPropertyButton from "../utils/AllPropertyButton";
 
 interface HomepageProps {}

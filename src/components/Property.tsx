@@ -7,7 +7,7 @@ import { Property } from "../Types/Property";
 interface PropertyAddProps {}
 
 const PropertyAdd: React.FC<PropertyAddProps> = () => {
-  const [fetchError, setFetchError] = useState<string | null>(null);
+  const [, setFetchError] = useState<string | null>(null);
   const [property, setProperty] = useState<any[]>([]);
 
   useEffect(() => {

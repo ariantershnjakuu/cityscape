@@ -3,8 +3,6 @@ import Room from "../assets/rooms.svg";
 import Bath from "../assets/bath.svg";
 import Document from "../assets/document.svg";
 
-interface PropertyCardProps {}
-
 enum PropertyType {
   SHITJE = "Në shitje",
   QERA = "Me qera",
