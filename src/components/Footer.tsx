@@ -10,13 +10,19 @@ const Footer: React.FC<FooterProps> = () => {
     <div className="mt-16 h-72 bg-gradient-to-r from-black to-[#271A00]">
       <div className="max-w-7xl mx-auto ">
         <div className="pt-20 pb-14 flex items-center justify-between border-b border-[#979797]/40">
-          <div className="flex items-center gap-3">
+          <div
+            className="flex items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <span className="text-white font-bold text-5xl">
               Bëje ëndrrën tënde
             </span>
             <span className="text-[#FFAC12] font-bold text-5xl">realitet</span>
           </div>
           <Link
+            data-aos="fade-up"
+            data-aos-duration="800"
             to="aboutus"
             className="bg-[#FFAC12] px-5 py-3 rounded-tr-xl font-bold"
           >

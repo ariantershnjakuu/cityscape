@@ -38,12 +38,20 @@ const PropertyAdd: React.FC<PropertyAddProps> = () => {
     <div className="mt-64 max-w-7xl mx-auto">
       <div className="px-8 pb-4">
         <div className="w-48 h-1 rounded-lg bg-gradient-to-r from-[#FFAC12] to-black mb-8"></div>
-        <span className="text-black font-bold text-5xl text-start">
+        <span
+          className="text-black font-bold text-5xl text-start"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
           Gjej vendin tënd të ardhshëm për të jetuar
         </span>
       </div>
       <AllPropertyButton />
-      <div className="grid px-8 mt-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        className="grid px-8 mt-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        data-aos="fade-up"
+        data-aos-duration="400"
+      >
         {property.map((item: Property) => {
           return (
             <PropertyCard
